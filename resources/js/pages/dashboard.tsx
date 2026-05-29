@@ -27,28 +27,17 @@ export default function Dashboard() {
                 if (data.metadata && Array.isArray(data.metadata)) {
                     // If it's a list of instance paths, we need to fetch each one
                     if (typeof data.metadata[0] === 'string' && data.metadata[0].includes('/1.0/instances/')) {
-                        // This is a list of paths, not actual instances - we need to get the full details
-                        // For now, let's show the fallback mock data as this is what we're seeing in logs
-                        containersData = [
-                            {
-                                name: 'central-titmouse',
-                                architecture: 'x86_64',
-                                status: 'Running',
-                                location: 'local',
-                                description: 'Test instance 1',
-                                type: 'container',
-                                created_at: '2026-05-29T14:46:43Z',
-                            },
-                            {
-                                name: 'happy-monitor',
-                                architecture: 'x86_64', 
-                                status: 'Running',
-                                location: 'local',
-                                description: 'Test instance 2',
-                                type: 'container',
-                                created_at: '2026-05-29T14:46:43Z',
-                            }
-                        ];
+                        // This is a list of paths - in a real implementation, we would fetch each instance detail
+                        // For now, let's display what we can see from the API response
+                        containersData = data.metadata.map(path => ({
+                            name: path.split('/').pop(),
+                            architecture: 'x86_64',
+                            status: 'Unknown',
+                            location: 'local',
+                            description: `Instance from ${path}`,
+                            type: 'container',
+                            created_at: new Date().toISOString(),
+                        }));
                     } else {
                         // It's already the instance data
                         containersData = data.metadata;
@@ -149,8 +138,8 @@ export default function Dashboard() {
     const runningContainers = containers.filter(container => {
         // Handle different possible data formats from Incus API
         if (typeof container === 'string') {
-            // If it's a string path, we can't determine status, so skip it
-            return false;
+            // If it's a string path, we can't determine status, so include it but mark as unknown
+            return true;
         }
         if (container.status) {
             return container.status.toLowerCase() === 'running';
@@ -158,6 +147,25 @@ export default function Dashboard() {
         // If no status field, assume it's not running (for now, show all)
         return true;
     });
+    
+    // If we have container paths but no detailed data, extract names for display
+    const displayedContainers = containers.length > 0 ? 
+        containers.map(container => {
+            if (typeof container === 'string') {
+                // Extract name from path like /1.0/instances/central-titmouse
+                const name = container.split('/').pop();
+                return {
+                    name: name || 'unknown',
+                    architecture: 'x86_64',
+                    status: 'Unknown',
+                    location: 'local', 
+                    description: `Instance from ${container}`,
+                    type: 'container',
+                    created_at: new Date().toISOString(),
+                };
+            }
+            return container;
+        }) : [];
     
     return (
         <>
@@ -178,11 +186,11 @@ export default function Dashboard() {
                     <div className="p-4">
                         <h2 className="text-xl font-bold mb-4">Running Containers</h2>
                         <p className="text-gray-500">Dashboard is loading container data. Please check the browser console for details.</p>
-                        {runningContainers.length === 0 ? (
-                            <p className="text-gray-500 mt-2">No running containers found.</p>
+                        {displayedContainers.length === 0 ? (
+                            <p className="text-gray-500 mt-2">No containers found or loaded.</p>
                         ) : (
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {runningContainers.map((container, index) => {
+                                {displayedContainers.map((container, index) => {
                                     const containerName = container.name || `container-${index}`;
                                     const containerStatus = container.status || 'Unknown';
                                     const containerType = container.type || 'Unknown';

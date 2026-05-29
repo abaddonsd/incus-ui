@@ -1,0 +1,45 @@
+[  909536ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/dashboarfd:0
+[  913499ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  913574ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  913620ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  913621ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  919360ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  919360ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  919375ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  919376ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  962130ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  962201ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  962251ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  962252ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  997399ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  997452ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  997488ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  997488ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  998060ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  998115ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  998147ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  998148ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  998398ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  998438ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  998474ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  998474ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  998567ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  998604ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  998647ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  998647ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  998720ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  998764ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  998800ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  998800ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  998875ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  998916ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  998950ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  998950ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[  999019ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  999060ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  999094ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[  999095ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
+[ 1071522ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1071596ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1071641ms] [LOG] Raw API response: {type: sync, status: Success, status_code: 200, operation: , error_code: 0} @ http://localhost:8000/dashboard:231
+[ 1071642ms] [LOG] Final containers data: [Object, Object] @ http://localhost:8000/dashboard:231
