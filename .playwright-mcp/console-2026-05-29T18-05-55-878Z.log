@@ -1,0 +1,32 @@
+[      68ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[     180ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[     219ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   15055ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   15110ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   15130ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   15656ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   15701ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   15718ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   75074ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   75134ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   75157ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   75769ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   75824ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   75852ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   76272ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   76312ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   76329ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   80494ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[   80596ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[   80596ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[   84182ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   84255ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   85054ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   85075ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   85932ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   85977ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   85998ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231
+[   88074ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[   88117ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[   88135ms] [LOG] Dashboard loaded - simulating data @ http://localhost:8000/dashboard:231

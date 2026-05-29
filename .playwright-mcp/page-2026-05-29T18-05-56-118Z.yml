@@ -1,0 +1,39 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Incus WebUI" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e13]
+            - generic [ref=e16]: Incus WebUI
+      - generic [ref=e18]:
+        - generic [ref=e19]: Platform
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Dashboard" [ref=e22] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e23]
+              - generic [ref=e28]: Dashboard
+      - generic [ref=e30]:
+        - generic:
+          - list
+    - main [ref=e31]:
+      - generic [ref=e33]:
+        - button "Toggle sidebar" [ref=e34]:
+          - img
+          - generic [ref=e35]: Toggle sidebar
+        - navigation "breadcrumb" [ref=e36]:
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Dashboard" [disabled] [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - img [ref=e43]
+          - img [ref=e46]
+          - img [ref=e49]
+        - generic [ref=e52]:
+          - heading "Running Containers" [level=2] [ref=e53]
+          - paragraph [ref=e54]: Dashboard is loading container data. Please check the browser console for details.
+          - paragraph [ref=e55]: No running containers found.
+  - region "Notifications alt+T"
