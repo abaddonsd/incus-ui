@@ -208,8 +208,21 @@ export default function Dashboard() {
                                         statusColor = 'text-gray-600';
                                     }
                                     
+                                    // Determine which logo to show
+                                    let logoPath = '/images/linux-logo.svg'; // Default logo
+                                    if (containerDistribution.toLowerCase() === 'ubuntu') {
+                                        logoPath = '/images/ubuntu-logo.svg';
+                                    } else if (containerDistribution.toLowerCase() === 'archlinux') {
+                                        logoPath = '/images/arch-logo.svg';
+                                    }
+                                    
                                     return (
-                                        <div key={containerName} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                                        <div key={containerName} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow relative">
+                                            {logoPath && (
+                                                <div className="absolute top-2 right-2">
+                                                    <img src={logoPath} alt={containerDistribution} className="w-6 h-6" />
+                                                </div>
+                                            )}
                                             <h3 className="font-semibold text-lg mb-2">{containerName}</h3>
                                             <div className="space-y-1">
                                                 <p className="text-sm"><span className="font-medium">Status:</span> <span className={statusColor}>{containerStatus}</span></p>
