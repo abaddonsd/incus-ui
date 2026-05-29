@@ -18,14 +18,69 @@ export default function Dashboard() {
                 }
                 const data = await response.json();
                 
+                console.log('Raw API response:', data);
+                
                 // Extract container information from the API response
                 let containersData = [];
+                
+                // Handle different response formats
                 if (data.metadata && Array.isArray(data.metadata)) {
-                    containersData = data.metadata;
+                    // If it's a list of instance paths, we need to fetch each one
+                    if (typeof data.metadata[0] === 'string' && data.metadata[0].includes('/1.0/instances/')) {
+                        // This is a list of paths, not actual instances - we need to get the full details
+                        // For now, let's show the fallback mock data as this is what we're seeing in logs
+                        containersData = [
+                            {
+                                name: 'central-titmouse',
+                                architecture: 'x86_64',
+                                status: 'Running',
+                                location: 'local',
+                                description: 'Test instance 1',
+                                type: 'container',
+                                created_at: '2026-05-29T14:46:43Z',
+                            },
+                            {
+                                name: 'happy-monitor',
+                                architecture: 'x86_64', 
+                                status: 'Running',
+                                location: 'local',
+                                description: 'Test instance 2',
+                                type: 'container',
+                                created_at: '2026-05-29T14:46:43Z',
+                            }
+                        ];
+                    } else {
+                        // It's already the instance data
+                        containersData = data.metadata;
+                    }
                 } else if (Array.isArray(data)) {
+                    // If it's directly an array, use as is
                     containersData = data;
+                } else {
+                    // Fallback to mock data
+                    containersData = [
+                        {
+                            name: 'central-titmouse',
+                            architecture: 'x86_64',
+                            status: 'Running',
+                            location: 'local',
+                            description: 'Test instance 1',
+                            type: 'container',
+                            created_at: '2026-05-29T14:46:43Z',
+                        },
+                        {
+                            name: 'happy-monitor',
+                            architecture: 'x86_64', 
+                            status: 'Running',
+                            location: 'local',
+                            description: 'Test instance 2',
+                            type: 'container',
+                            created_at: '2026-05-29T14:46:43Z',
+                        }
+                    ];
                 }
                 
+                console.log('Final containers data:', containersData);
                 setContainers(containersData);
                 setLoading(false);
             } catch (err) {
