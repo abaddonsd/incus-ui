@@ -1,0 +1,9 @@
+[   74188ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/:166
+[   85233ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[   85272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[   85275ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at r.onload (http://localhost:8000/build/assets/app-CkKrn__M.js:3:1697) @ http://localhost:8000/dashboard:225
+[   86321ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[   86351ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[   86351ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at r.onload (http://localhost:8000/build/assets/app-CkKrn__M.js:3:1697) @ http://localhost:8000/dashboard:225

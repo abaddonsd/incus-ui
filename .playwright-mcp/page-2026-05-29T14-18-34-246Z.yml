@@ -1,0 +1,43 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link "Incus WebUI" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e13]
+            - generic [ref=e16]: Incus WebUI
+      - generic [ref=e18]:
+        - generic [ref=e19]: Platform
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - link "Dashboard" [ref=e22] [cursor=pointer]:
+              - /url: /dashboard
+              - img [ref=e23]
+              - generic [ref=e28]: Dashboard
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic:
+            - list
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - button "A admin" [ref=e33]:
+              - generic [ref=e35]: A
+              - generic [ref=e37]: admin
+              - img [ref=e38]
+    - main [ref=e41]:
+      - generic [ref=e43]:
+        - button "Toggle sidebar" [ref=e44]:
+          - img
+          - generic [ref=e45]: Toggle sidebar
+        - navigation "breadcrumb" [ref=e46]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "Dashboard" [disabled] [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - img [ref=e53]
+          - img [ref=e56]
+          - img [ref=e59]
+        - generic [ref=e63]: Failed to load containers. Please check the Incus API connection.
+  - region "Notifications alt+T"

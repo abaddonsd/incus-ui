@@ -1,0 +1,430 @@
+[      45ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[      83ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[     113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[     114ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  126176ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  126230ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  126263ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  126264ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  127271ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  127339ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  127387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  127389ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  129259ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[  129361ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[  129361ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[  161263ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  161312ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  171152ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  171869ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  172616ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  172908ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  178159ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  186481ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  186504ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  325643ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  325667ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  326508ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  326531ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  346350ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  346374ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  349071ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  349095ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  502304ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  503011ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  503158ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  503216ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  503220ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  503797ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  503833ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  503864ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  503865ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  510434ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  510487ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  518846ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8000/login:0
+[  518885ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ about:srcdoc:16
+[  518899ms] [ERROR] Access to script at 'http://[::1]:5173/@vite/client' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:srcdoc:3273
+[  518899ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://[::1]:5173/@vite/client:0
+[  529531ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  529532ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  529536ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  529537ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  532255ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  532311ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  532339ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  532340ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  571611ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  571658ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  571693ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  571693ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  968877ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  968933ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  968974ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  968975ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  981257ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  981314ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  981348ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  981349ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  981974ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  982029ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  982058ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  982060ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  985528ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  985570ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  985604ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  985605ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  986144ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  986182ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  986210ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  986211ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  986307ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  986349ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  986379ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  986380ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  986408ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  986448ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  986479ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  986479ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  991369ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[  991471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[  991471ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[  995219ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  996100ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  996137ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  996138ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  997042ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  997085ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  997113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  997114ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  997790ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  997830ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  997862ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  997863ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1004860ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[ 1004961ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[ 1004961ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1034548ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1034598ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1067918ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1067940ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1188546ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1188571ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1459117ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1459493ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1459550ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1459551ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1505359ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1505401ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1505436ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1505437ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1552717ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1552783ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1552823ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1552825ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1553427ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1553487ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1553521ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1553523ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1606049ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1606098ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1606133ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1606134ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1625081ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1625131ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1625166ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1625167ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1625780ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1625824ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1625854ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1625855ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1626190ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1626231ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1626263ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1626264ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1626363ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1626411ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1626439ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1626440ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1626547ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1626554ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1626598ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1626630ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1626631ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1628575ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1628616ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1628646ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1628647ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1639754ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[ 1639855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[ 1639855ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1643317ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1644083ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1644117ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1644118ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1644791ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1644838ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1644869ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1644870ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1645272ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1645312ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1645338ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1645339ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1645455ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1645461ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1645497ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1645526ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1645527ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1645653ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1645659ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1645702ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1645726ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1645727ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1660745ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1660795ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1660828ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1660829ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1737498ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1737549ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1737594ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1737595ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1738303ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1738347ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1738379ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1738381ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1750816ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/:172
+[ 1750911ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/:231
+[ 1754018ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[ 1754079ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[ 1760514ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1760516ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[ 1760522ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1760522ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[ 1764677ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1764715ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1764750ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1764751ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1786843ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[ 1793575ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1793625ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1794200ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1794222ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1832342ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1832366ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225

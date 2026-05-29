@@ -1,0 +1,177 @@
+[  174944ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  174998ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  181480ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[  181504ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[  983424ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  983927ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  984001ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  984002ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  994036ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/dashboard:231
+[  994137ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8000/_boost/browser-logs:0
+[  994138ms] [ERROR] Failed to send logs: TypeError: Failed to fetch
+    at flushLogs (http://localhost:8000/dashboard:209:9) @ http://localhost:8000/dashboard:217
+[ 1011592ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1012726ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1012767ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1012769ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1012819ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1012881ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1012923ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1012924ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1017319ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[ 1017368ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[ 1018261ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[ 1018310ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[ 1034145ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8000/login:231
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/ea4835817af549c4.woff2:0
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/646da5904a6b75b3.woff2:0
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/c2f2448d9fce64fc.woff2:0
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/7085612d2ed65626.woff2:0
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/6a3776752d8384e0.woff2:0
+[ 1042068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/362cefc1f60b4549.woff2:0
+[ 1042069ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[ 1042086ms] [ERROR] WebSocket connection to 'ws://[::1]:5173/?token=Z6VLnFEkBvNn' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/@vite/client:864
+[ 1042093ms] [ERROR] WebSocket connection to 'ws://localhost:5173/?token=Z6VLnFEkBvNn' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/@vite/client:874
+[ 1042094ms] [ERROR] [vite] failed to connect to websocket.
+your current setup:
+  (browser) [::1]:5173/ <--[HTTP]--> localhost:5173/ (server)
+  (browser) [::1]:5173/ <--[WebSocket (failing)]--> localhost:5173/ (server)
+Check out your Vite / network configuration and https://vite.dev/config/server-options.html#server-hmr . @ http://localhost:8000/dashboard:231
+[ 1042107ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[ 1042141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/5155383f4b167dd7.woff:0
+[ 1042141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/8e01563146a049be.woff:0
+[ 1042141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://[::1]:5173/__laravel_vite_plugin__/fonts/d87233d5377eab1d.woff:0
+[ 1042141ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[ 1042142ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[ 1042788ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1042838ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043223ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043245ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043394ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043416ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043554ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043586ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043668ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043690ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043794ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043813ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1043905ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1043926ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1729315ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1729364ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225
+[ 1730694ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:166
+[ 1730717ms] [ERROR] Failed to load containers: Error: Minified React error #321; visit https://react.dev/errors/321 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Object.vo (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:47275)
+    at e.useRef (http://localhost:8000/build/assets/app-DgQpIZUo.js:90:11293)
+    at Ra (http://localhost:8000/build/assets/app-DgQpIZUo.js:98:57852)
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2461
+    at http://localhost:8000/build/assets/dashboard-fLGcIYfS.js:1:2621
+    at Rc (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:91911)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107088)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972)
+    at wl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:107853)
+    at Cl (http://localhost:8000/build/assets/app-DgQpIZUo.js:97:106972) @ http://localhost:8000/dashboard:225

@@ -1,0 +1,88 @@
+[   89479ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[   90303ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[   90423ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  102387ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  102388ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  102393ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  102394ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  298200ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  298248ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  298304ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  298306ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  298929ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  298975ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  299008ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  299009ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  299099ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  299139ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  299167ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  299168ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  299258ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  299295ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  299326ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  299327ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  348782ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  348836ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  348868ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  348869ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  349312ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  349355ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  349392ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  349393ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  453531ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  453584ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  453618ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  453619ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  454164ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  454203ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  454246ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  454248ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  454321ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  454374ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  454402ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  454403ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  605746ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  605803ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  606339ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  606385ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  606474ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  606523ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  611711ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8000/login:0
+[  611751ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ about:srcdoc:16
+[  611835ms] [ERROR] Access to script at 'http://[::1]:5173/@vite/client' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:srcdoc:3273
+[  611835ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://[::1]:5173/@vite/client:0
+[  623463ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  623517ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  624419ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/login:172
+[  624468ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/login:231
+[  628767ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8000/login:0
+[  628805ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ about:srcdoc:16
+[  628815ms] [ERROR] Access to script at 'http://[::1]:5173/@vite/client' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ about:srcdoc:3210
+[  628815ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://[::1]:5173/@vite/client:0
+[  661211ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  661211ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  661218ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  661219ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/login:231
+[  662679ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  662727ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  662762ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  662764ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
+[  664379ms] [LOG] 🔍 Browser logger active (MCP server detected). Posting to: http://localhost:8000/_boost/browser-logs @ http://localhost:8000/dashboard:172
+[  664425ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:8000/dashboard:231
+[  664461ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8000/[object%20Object]:0
+[  664462ms] [ERROR] Failed to load containers: HttpResponseError: Request failed with status 404 ([object%20Object])
+    at xhr.onload (http://[::1]:5173/node_modules/.vite/deps/@inertiajs_react.js?v=42b4ec9d:4076:35) @ http://localhost:8000/dashboard:231
