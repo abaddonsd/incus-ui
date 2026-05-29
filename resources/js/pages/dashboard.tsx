@@ -8,13 +8,34 @@ export default function Dashboard() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
-    // Use the actual Laravel API endpoints that exist
+    // Fetch containers data from Laravel API
     useEffect(() => {
-        // Since we're using Inertia, we should let the server-side render handle data loading
-        // For now, we'll just simulate a success state to avoid the React error
-        console.log('Dashboard loaded - simulating data');
-        setLoading(false);
-        setContainers([]);
+        const fetchContainers = async () => {
+            try {
+                const response = await fetch('/incus/instances');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                // Extract container information from the API response
+                let containersData = [];
+                if (data.metadata && Array.isArray(data.metadata)) {
+                    containersData = data.metadata;
+                } else if (Array.isArray(data)) {
+                    containersData = data;
+                }
+                
+                setContainers(containersData);
+                setLoading(false);
+            } catch (err) {
+                console.error('Failed to fetch containers:', err);
+                setError('Failed to load container data. Please check your Incus server connection.');
+                setLoading(false);
+            }
+        };
+
+        fetchContainers();
     }, []);
 
     if (loading) {
@@ -79,8 +100,8 @@ export default function Dashboard() {
         if (container.status) {
             return container.status.toLowerCase() === 'running';
         }
-        // If no status field, assume it's not running
-        return false;
+        // If no status field, assume it's not running (for now, show all)
+        return true;
     });
     
     return (
