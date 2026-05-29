@@ -1,0 +1,11 @@
+{
+  "servers": [
+    {
+      "name": "playwright",
+      "module": "@playwright/mcp",
+      "config": {
+        "testDir": "./tests/Playwright"
+      }
+    }
+  ]
+}
