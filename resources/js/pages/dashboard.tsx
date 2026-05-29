@@ -138,7 +138,7 @@ export default function Dashboard() {
     const runningContainers = containers.filter(container => {
         // Handle different possible data formats from Incus API
         if (typeof container === 'string') {
-            // If it's a string path, we can't determine status, so include it but mark as unknown
+            // If it's a string path, we can't determine status, so include it
             return true;
         }
         if (container.status) {
@@ -157,7 +157,7 @@ export default function Dashboard() {
                 return {
                     name: name || 'unknown',
                     architecture: 'x86_64',
-                    status: 'Unknown',
+                    status: 'Unknown', // Status is unknown because we only have paths
                     location: 'local', 
                     description: `Instance from ${container}`,
                     type: 'container',
@@ -196,14 +196,26 @@ export default function Dashboard() {
                                     const containerType = container.type || 'Unknown';
                                     const containerArchitecture = container.architecture || 'Unknown';
                                     const containerCreated = container.created_at ? new Date(container.created_at).toLocaleDateString() : 'Unknown';
+                                    const containerDistribution = container.config?.['image.os'] || 'Unknown';
+                                    
+                                    // Determine status color
+                                    let statusColor = '';
+                                    if (containerStatus.toLowerCase() === 'running') {
+                                        statusColor = 'text-green-600';
+                                    } else if (containerStatus.toLowerCase() === 'stopped') {
+                                        statusColor = 'text-red-600';
+                                    } else {
+                                        statusColor = 'text-gray-600';
+                                    }
                                     
                                     return (
                                         <div key={containerName} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
                                             <h3 className="font-semibold text-lg mb-2">{containerName}</h3>
                                             <div className="space-y-1">
-                                                <p className="text-sm"><span className="font-medium">Status:</span> {containerStatus}</p>
+                                                <p className="text-sm"><span className="font-medium">Status:</span> <span className={statusColor}>{containerStatus}</span></p>
                                                 <p className="text-sm"><span className="font-medium">Type:</span> {containerType}</p>
                                                 <p className="text-sm"><span className="font-medium">Architecture:</span> {containerArchitecture}</p>
+                                                <p className="text-sm"><span className="font-medium">Distribution:</span> {containerDistribution}</p>
                                                 <p className="text-sm"><span className="font-medium">Created:</span> {containerCreated}</p>
                                             </div>
                                         </div>
