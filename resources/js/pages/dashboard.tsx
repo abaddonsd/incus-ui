@@ -2,6 +2,7 @@ import { Head } from '@inertiajs/react';
 import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
 import { dashboard } from '@/routes';
 import { useState, useEffect } from 'react';
+import Paper from '@mui/material/Paper';
 
 export default function Dashboard() {
     const [containers, setContainers] = useState([]);
@@ -17,8 +18,6 @@ export default function Dashboard() {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                
-                console.log('Raw API response:', data);
                 
                 // Extract container information from the API response
                 let containersData = [];
@@ -69,11 +68,9 @@ export default function Dashboard() {
                     ];
                 }
                 
-                console.log('Final containers data:', containersData);
                 setContainers(containersData);
                 setLoading(false);
             } catch (err) {
-                console.error('Failed to fetch containers:', err);
                 setError('Failed to load container data. Please check your Incus server connection.');
                 setLoading(false);
             }
@@ -185,7 +182,6 @@ export default function Dashboard() {
                 <div className="relative min-h-[100vh] flex-1 overflow-hidden rounded-xl border border-sidebar-border md:min-h-min dark:border-sidebar-border">
                     <div className="p-4">
                         <h2 className="text-xl font-bold mb-4">Running Containers</h2>
-                        <p className="text-gray-500">Dashboard is loading container data. Please check the browser console for details.</p>
                         {displayedContainers.length === 0 ? (
                             <p className="text-gray-500 mt-2">No containers found or loaded.</p>
                         ) : (
@@ -217,7 +213,7 @@ export default function Dashboard() {
                                     }
                                     
                                     return (
-                                        <div key={containerName} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow relative">
+                                        <Paper key={containerName} elevation={3} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow relative">
                                             {logoPath && (
                                                 <div className="absolute top-2 right-2">
                                                     <img src={logoPath} alt={containerDistribution} className="w-6 h-6" />
@@ -231,7 +227,7 @@ export default function Dashboard() {
                                                 <p className="text-sm"><span className="font-medium">Distribution:</span> {containerDistribution}</p>
                                                 <p className="text-sm"><span className="font-medium">Created:</span> {containerCreated}</p>
                                             </div>
-                                        </div>
+                                        </Paper>
                                     );
                                 })}
                             </div>
