@@ -3,6 +3,21 @@ import { PlaceholderPattern } from '@/components/ui/placeholder-pattern';
 import { dashboard } from '@/routes';
 import { useState, useEffect } from 'react';
 import Paper from '@mui/material/Paper';
+import Avatar from '@mui/material/Avatar';
+import Tooltip from '@mui/material/Tooltip';
+import Badge from '@mui/material/Badge';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import StopIcon from '@mui/icons-material/Stop';
+import RestartAltIcon from '@mui/icons-material/RestartAlt';
+import ContentCopyIcon from '@mui/icons-material/ContentCopy';
+import DeleteIcon from '@mui/icons-material/Delete';
+import { Button } from '@/components/ui/button';
 
 export default function Dashboard() {
     const [containers, setContainers] = useState([]);
@@ -78,6 +93,90 @@ export default function Dashboard() {
 
         fetchContainers();
     }, []);
+
+    // Function to start an instance
+    const startInstance = async (name: string) => {
+        try {
+            const response = await fetch(`/incus/instance/${name}/start`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP error! status: ${response.status} - ${errorText}`);
+            }
+            
+            // Update the specific container's status in the UI
+            setContainers(prevContainers => 
+                prevContainers.map(container => 
+                    container.name === name ? { ...container, status: 'Running' } : container
+                )
+            );
+        } catch (err) {
+            console.error('Failed to start instance:', err);
+            // Show error to user
+            alert(`Failed to start instance: ${err.message}`);
+        }
+    };
+
+    // Function to stop an instance
+    const stopInstance = async (name: string) => {
+        try {
+            const response = await fetch(`/incus/instance/${name}/stop`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP error! status: ${response.status} - ${errorText}`);
+            }
+            
+            // Update the specific container's status in the UI
+            setContainers(prevContainers => 
+                prevContainers.map(container => 
+                    container.name === name ? { ...container, status: 'Stopped' } : container
+                )
+            );
+        } catch (err) {
+            console.error('Failed to stop instance:', err);
+            // Show error to user
+            alert(`Failed to stop instance: ${err.message}`);
+        }
+    };
+
+    // Function to restart an instance
+    const restartInstance = async (name: string) => {
+        try {
+            const response = await fetch(`/incus/instance/${name}/restart`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            });
+            
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`HTTP error! status: ${response.status} - ${errorText}`);
+            }
+            
+            // Update the specific container's status in the UI
+            setContainers(prevContainers => 
+                prevContainers.map(container => 
+                    container.name === name ? { ...container, status: 'Running' } : container
+                )
+            );
+        } catch (err) {
+            console.error('Failed to restart instance:', err);
+            // Show error to user
+            alert(`Failed to restart instance: ${err.message}`);
+        }
+    };
 
     if (loading) {
         return (
@@ -214,11 +313,56 @@ export default function Dashboard() {
                                     
                                     return (
                                         <Paper key={containerName} elevation={3} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow relative">
-                                            {logoPath && (
-                                                <div className="absolute top-2 right-2">
-                                                    <img src={logoPath} alt={containerDistribution} className="w-6 h-6" />
-                                                </div>
-                                            )}
+                                            <DropdownMenu>
+                                                <DropdownMenuTrigger asChild>
+                                                    {logoPath && (
+                                                        <div className="absolute top-2 right-2">
+                                                            <Tooltip title="Manage container">
+                                                                <Badge 
+                                                                    badgeContent="" 
+                                                                    color={containerStatus.toLowerCase() === 'running' ? 'success' : containerStatus.toLowerCase() === 'stopped' ? 'error' : 'default'}
+                                                                    anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+                                                                    sx={{ 
+                                                                        '& .MuiBadge-badge': { 
+                                                                            width: '2px', 
+                                                                            height: '20px', 
+                                                                            borderRadius: '100%',
+                                                                            fontSize: '2px',
+                                                                            top: '-3px',
+                                                                            right: '-3px',
+                                                                            padding: '0 1px'
+                                                                        } 
+                                                                    }}
+                                                                >
+                                                                    <Avatar alt={containerDistribution} src={logoPath} variant="square" />
+                                                                </Badge>
+                                                            </Tooltip>
+                                                        </div>
+                                                    )}
+                                                </DropdownMenuTrigger>
+                                                <DropdownMenuContent align="end" className="w-40">
+                                                    <DropdownMenuItem onClick={() => startInstance(containerName)}>
+                                                        <PlayArrowIcon className="mr-2 h-4 w-4" />
+                                                        Start
+                                                    </DropdownMenuItem>
+                                                    <DropdownMenuItem onClick={() => stopInstance(containerName)}>
+                                                        <StopIcon className="mr-2 h-4 w-4" />
+                                                        Stop
+                                                    </DropdownMenuItem>
+                                                    <DropdownMenuItem onClick={() => restartInstance(containerName)}>
+                                                        <RestartAltIcon className="mr-2 h-4 w-4" />
+                                                        Restart
+                                                    </DropdownMenuItem>
+                                                    <DropdownMenuItem>
+                                                        <ContentCopyIcon className="mr-2 h-4 w-4" />
+                                                        Snapshot
+                                                    </DropdownMenuItem>
+                                                    <DropdownMenuItem>
+                                                        <DeleteIcon className="mr-2 h-4 w-4" />
+                                                        Delete
+                                                    </DropdownMenuItem>
+                                                </DropdownMenuContent>
+                                            </DropdownMenu>
                                             <h3 className="font-semibold text-lg mb-2">{containerName}</h3>
                                             <div className="space-y-1">
                                                 <p className="text-sm"><span className="font-medium">Status:</span> <span className={statusColor}>{containerStatus}</span></p>

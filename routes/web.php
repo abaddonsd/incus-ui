@@ -12,6 +12,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/incus', [App\Http\Controllers\IncusController::class, 'index'])->name('incus.info');
     Route::get('/incus/instances', [App\Http\Controllers\IncusController::class, 'instances'])->name('incus.instances');
     Route::get('/incus/instance/{name}', [App\Http\Controllers\IncusController::class, 'instance'])->name('incus.instance');
+    
+    // Instance action routes
+    Route::post('/incus/instance/{name}/start', [App\Http\Controllers\IncusController::class, 'startInstance'])->name('incus.instance.start');
+    Route::post('/incus/instance/{name}/stop', [App\Http\Controllers\IncusController::class, 'stopInstance'])->name('incus.instance.stop');
+    Route::post('/incus/instance/{name}/restart', [App\Http\Controllers\IncusController::class, 'restartInstance'])->name('incus.instance.restart');
 });
 
 require __DIR__.'/settings.php';

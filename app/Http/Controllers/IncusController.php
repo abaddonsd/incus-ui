@@ -67,4 +67,55 @@ class IncusController extends Controller
             ], 500);
         }
     }
+
+    /**
+     * Start an instance.
+     */
+    public function startInstance(string $name)
+    {
+        try {
+            $result = $this->incusClient->startInstance($name);
+            return response()->json($result);
+        } catch (\Exception $e) {
+            \Log::error('Failed to start Incus instance: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Failed to start instance',
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    }
+
+    /**
+     * Stop an instance.
+     */
+    public function stopInstance(string $name)
+    {
+        try {
+            $result = $this->incusClient->stopInstance($name);
+            return response()->json($result);
+        } catch (\Exception $e) {
+            \Log::error('Failed to stop Incus instance: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Failed to stop instance',
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    }
+
+    /**
+     * Restart an instance.
+     */
+    public function restartInstance(string $name)
+    {
+        try {
+            $result = $this->incusClient->restartInstance($name);
+            return response()->json($result);
+        } catch (\Exception $e) {
+            \Log::error('Failed to restart Incus instance: ' . $e->getMessage());
+            return response()->json([
+                'error' => 'Failed to restart instance',
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    }
 }

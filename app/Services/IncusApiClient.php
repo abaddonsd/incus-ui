@@ -142,4 +142,34 @@ class IncusApiClient
     {
         return $this->delete("/1.0/instances/{$name}");
     }
+
+    /**
+     * Start an instance
+     */
+    public function startInstance(string $name)
+    {
+        return $this->put("/1.0/instances/{$name}/state", [
+            'action' => 'start',
+        ]);
+    }
+
+    /**
+     * Stop an instance
+     */
+    public function stopInstance(string $name)
+    {
+        return $this->put("/1.0/instances/{$name}/state", [
+            'action' => 'stop',
+        ]);
+    }
+
+    /**
+     * Restart an instance
+     */
+    public function restartInstance(string $name)
+    {
+        return $this->put("/1.0/instances/{$name}/state", [
+            'action' => 'restart',
+        ]);
+    }
 }
