@@ -108,7 +108,7 @@ class IncusApiClient
      */
     public function getInstances()
     {
-        return $this->get('/1.0/instances?recursion=1');
+        return $this->get('/1.0/instances?recursion=2');
     }
 
     /**

@@ -51,14 +51,36 @@ export default function Dashboard() {
                             description: `Instance from ${path}`,
                             type: 'container',
                             created_at: new Date().toISOString(),
+                            // Placeholder for IP - in real implementation, this would come from API
+                            ipv4: '192.168.1.100',
+                            ipv6: 'fd42:42::100'
                         }));
                     } else {
-                        // It's already the instance data
-                        containersData = data.metadata;
+                        // It's already the instance data - extract IPs if available
+                        containersData = data.metadata.map(container => ({
+                            ...container,
+                            name: container.name || container.description?.split('/').pop() || 'unknown',
+                            // Extract IP addresses from networks if they exist
+                            ipv4: container.networks ? 
+                                (container.networks.eth0?.addresses.find(addr => addr.family === 'inet')?.address || 'N/A') : 
+                                'N/A',
+                            ipv6: container.networks ? 
+                                (container.networks.eth0?.addresses.find(addr => addr.family === 'inet6')?.address || 'N/A') : 
+                                'N/A'
+                        }));
                     }
                 } else if (Array.isArray(data)) {
                     // If it's directly an array, use as is
-                    containersData = data;
+                    containersData = data.map(container => ({
+                        ...container,
+                        // Extract IP addresses from networks if they exist
+                        ipv4: container.networks ? 
+                            (container.networks.eth0?.addresses.find(addr => addr.family === 'inet')?.address || 'N/A') : 
+                            'N/A',
+                        ipv6: container.networks ? 
+                            (container.networks.eth0?.addresses.find(addr => addr.family === 'inet6')?.address || 'N/A') : 
+                            'N/A'
+                    }));
                 } else {
                     // Fallback to mock data
                     containersData = [
@@ -70,6 +92,8 @@ export default function Dashboard() {
                             description: 'Test instance 1',
                             type: 'container',
                             created_at: '2026-05-29T14:46:43Z',
+                            ipv4: '192.168.1.100',
+                            ipv6: 'fd42:42::100'
                         },
                         {
                             name: 'happy-monitor',
@@ -79,6 +103,8 @@ export default function Dashboard() {
                             description: 'Test instance 2',
                             type: 'container',
                             created_at: '2026-05-29T14:46:43Z',
+                            ipv4: '192.168.1.101',
+                            ipv6: 'fd42:42::101'
                         }
                     ];
                 }
@@ -303,15 +329,57 @@ export default function Dashboard() {
                                         statusColor = 'text-gray-600';
                                     }
                                     
-                                    // Determine which logo to show
-                                    let logoPath = '/images/linux-logo.svg'; // Default logo
-                                    if (containerDistribution.toLowerCase() === 'ubuntu') {
-                                        logoPath = '/images/ubuntu-logo.svg';
-                                    } else if (containerDistribution.toLowerCase() === 'archlinux') {
-                                        logoPath = '/images/arch-logo.svg';
-                                    }
-                                    
-                                    return (
+    // Determine which logo to show
+    let logoPath = '/images/linux-logo.svg'; // Default logo
+    if (containerDistribution.toLowerCase() === 'ubuntu') {
+        logoPath = '/images/ubuntu-logo.svg';
+    } else if (containerDistribution.toLowerCase() === 'archlinux') {
+        logoPath = '/images/arch-logo.svg';
+    }
+    
+    // Function to extract IPv4 address from container data
+    const getIpv4Address = (container: any, status: string) => {
+        // If container is stopped, don't show the IP address
+        if (status.toLowerCase() === 'stopped') {
+            return 'N/A';
+        }
+        
+        // Extract IPv4 addresses from state.network.eth0.addresses array
+        if (container.state && container.state.network && container.state.network.eth0 && container.state.network.eth0.addresses) {
+            const addresses = container.state.network.eth0.addresses;
+            
+            // Find IPv4 address first
+            const ipv4 = addresses.find((addr: any) => addr.family === 'inet')?.address;
+            
+            return ipv4 || 'N/A';
+        }
+        
+        // If no network info at all, show N/A
+        return 'N/A';
+    };
+    
+    // Function to extract IPv6 address from container data
+    const getIpv6Address = (container: any, status: string) => {
+        // If container is stopped, don't show the IP address
+        if (status.toLowerCase() === 'stopped') {
+            return 'N/A';
+        }
+        
+        // Extract IPv6 addresses from state.network.eth0.addresses array
+        if (container.state && container.state.network && container.state.network.eth0 && container.state.network.eth0.addresses) {
+            const addresses = container.state.network.eth0.addresses;
+            
+            // Find IPv6 address first
+            const ipv6 = addresses.find((addr: any) => addr.family === 'inet6')?.address;
+            
+            return ipv6 || 'N/A';
+        }
+        
+        // If no network info at all, show N/A
+        return 'N/A';
+    };
+    
+    return (
                                         <Paper key={containerName} elevation={3} className="border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow relative">
                                             <DropdownMenu>
                                                 <DropdownMenuTrigger asChild>
@@ -365,7 +433,8 @@ export default function Dashboard() {
                                             </DropdownMenu>
                                             <h3 className="font-semibold text-lg mb-2">{containerName}</h3>
                                             <div className="space-y-1">
-                                                <p className="text-sm"><span className="font-medium">Status:</span> <span className={statusColor}>{containerStatus}</span></p>
+                                                <p className="text-sm"><span className="font-medium">IPv4:</span> {getIpv4Address(container, containerStatus)}</p>
+                                                <p className="text-sm"><span className="font-medium">IPv6:</span> {getIpv6Address(container, containerStatus)}</p>
                                                 <p className="text-sm"><span className="font-medium">Type:</span> {containerType}</p>
                                                 <p className="text-sm"><span className="font-medium">Architecture:</span> {containerArchitecture}</p>
                                                 <p className="text-sm"><span className="font-medium">Distribution:</span> {containerDistribution}</p>
